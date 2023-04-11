@@ -1,0 +1,10 @@
+{
+  "resourceName": "files",
+  "tableName": "files",
+  "partitionKey": {
+    "fieldName": "userEmail",
+    "fieldType": "string"
+  },
+  "gsi": [],
+  "triggerFunctions": []
+}

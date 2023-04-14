@@ -6,15 +6,22 @@ import { AmplifyAuthenticatorModule } from '@aws-amplify/ui-angular';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { HomeComponent } from './home/home.component';
+
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
      /* configure App with AmplifyAuthenticatorModule */
-     AmplifyAuthenticatorModule
+     AmplifyAuthenticatorModule,
+     /* configuring form modules */
+     FormsModule,
+     ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

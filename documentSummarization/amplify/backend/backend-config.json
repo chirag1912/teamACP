@@ -62,6 +62,24 @@
       "service": "Lambda"
     }
   },
+  "parameters": {
+    "AMPLIFY_function_summaryLambda_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "summaryLambda"
+        }
+      ]
+    },
+    "AMPLIFY_function_summaryLambda_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "summaryLambda"
+        }
+      ]
+    }
+  },
   "storage": {
     "files": {
       "providerPlugin": "awscloudformation",

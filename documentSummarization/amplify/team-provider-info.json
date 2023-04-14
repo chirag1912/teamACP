@@ -9,14 +9,24 @@
       "UnauthRoleName": "amplify-documentsummarizatio-dev-154618-unauthRole",
       "StackName": "amplify-documentsummarizatio-dev-154618",
       "StackId": "arn:aws:cloudformation:us-west-1:268556106437:stack/amplify-documentsummarizatio-dev-154618/8340b6e0-d7f1-11ed-8007-02b764da7a9f",
-      "AmplifyAppId": "d3n9j1mk5opmod"
+      "AmplifyAppId": "d3n9j1mk5opmod",
+      "APIGatewayAuthURL": "https://s3.amazonaws.com/amplify-documentsummarizatio-dev-154618-deployment/amplify-cfn-templates/api/APIGatewayAuthStack.json"
     },
     "categories": {
       "function": {
-        "summaryLambda": {}
+        "summaryLambda": {
+          "deploymentBucketName": "amplify-documentsummarizatio-dev-154618-deployment",
+          "s3Key": "amplify-builds/summaryLambda-72714b63582b77627a51-build.zip"
+        }
       },
       "auth": {
         "documentsummarizatio": {}
+      },
+      "storage": {
+        "files": {}
+      },
+      "api": {
+        "summaryApi": {}
       }
     }
   }
